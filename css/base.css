@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lucida Grande', Lucida, Verdana, sans-serif;
+  font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
 }
 
 .company-header {
@@ -24,4 +24,7 @@ body {
 
 .role-keywords {
   color: #666;
+  word-break: break-all;
+  overflow-wrap: break-word;
 }
+
