@@ -1,0 +1,123 @@
+body {
+  margin: 10px;
+  font-size: 12px;
+}
+
+#nav,
+#footer,
+#skills {
+  display: none;
+}
+
+#page {
+  border: 0px;
+  box-shadow: none;
+}
+
+#header {
+  /* height: 120px; */
+  color: black;
+  background: none;
+  text-align: center;
+}
+
+#header #name {
+  font-size: 3em;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+#header #title {
+  display: none;
+}
+
+#header #address {
+  margin: 1em;
+}
+
+#header #address a {
+  margin: 1em;
+}
+
+#header #address-print {
+  display: inherit;
+  margin-top: 5px;
+}
+
+#header a {
+  color: black;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-top: 1.5em;
+}
+
+h2.on-page-header {
+  margin-top: 50px;
+}
+
+.break-here {
+  page-break-before: always;
+}
+
+td {
+  padding: 0px;
+  padding-left: 5px;
+}
+
+#skill-table td.first {
+  width: 15em !important;
+}
+
+td.first {
+  text-align: right;
+  font-weight: bold;
+  width: 8em;
+  vertical-align: top;
+}
+
+td.first:after {
+  content: ": ";
+}
+
+td {
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+}
+
+#content a:link:after {
+  content: " (" attr(href) ") ";
+  font-style: italic;
+}
+
+/* reshow print only items */
+#work-fourv-repeat {
+  display: block;
+}
+
+#open_source_print {
+  display: block;
+  page-break-before: always;
+}
+
+#open_source {
+  display: none;
+}
+
+/* Print alignment */
+#work-fourv-repeat {
+  display: inherit;
+  page-break-before: always;
+}
+
+#work-waterfall {
+  page-break-before: always;
+}
+
+#infoblox_inc {
+  page-break-before: always;
+}

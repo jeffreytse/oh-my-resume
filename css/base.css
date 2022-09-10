@@ -1,0 +1,27 @@
+body {
+  font-family: 'Lucida Grande', Lucida, Verdana, sans-serif;
+}
+
+.company-header {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-size: 1.25em;
+}
+
+.company-header .company {
+  /* font-size: 1.25em; */
+  font-weight: bold;
+}
+
+.company-header .position {
+  font-weight: bold;
+}
+
+.company-header .date {
+  width: 18em;
+  display: inline-block;
+}
+
+.role-keywords {
+  color: #666;
+}

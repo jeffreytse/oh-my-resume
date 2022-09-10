@@ -1,0 +1,145 @@
+body {
+  /* background-color: #999; */
+  background-color: rgb(217, 217, 217);
+  font-size: 12px;
+  margin: 20px;
+}
+
+#page {
+  position: relative;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 850px;
+  /* border: 1px solid black; */
+  box-shadow: 0px 0px 15px 10px rgb(200, 200, 200);
+}
+
+#footer {
+  padding: 20px;
+  border-top: 8px solid #bbb;
+  background-color: rgb(53, 60, 62);
+  color: white;
+  text-align: center;
+  /* font-size: .75em; */
+}
+
+#header {
+  text-align: center;
+  font-size: 14px;
+  background-color: #222;
+  color: white;
+  height: 145px;
+  border-bottom: 8px solid #bbb;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+
+#header #name {
+  font-size: 3.5em;
+  padding-left: 20px;
+  padding-top: 20px;
+  display: inline;
+  /* float: left; */
+}
+
+#header #title {
+  font-size: 2em;
+}
+
+#header #address {
+  margin-top: 5px;
+  /* float: right; */
+  /* vertical-align: top; */
+  /* font-style: italic; */
+  font-size: 0.8em;
+  line-height: 2em;
+}
+
+#header #address a {
+  color: white;
+}
+
+#header #address i.bi:not(:first-child) {
+  margin-left: 0.75em;
+}
+
+#header #nav {
+  clear: both;
+  text-align: center;
+  /* margin-top: 15px; */
+  padding-top: 15px;
+}
+
+#header #nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#header #nav li {
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#header #nav a {
+  color: #b3b3b3;
+  /* text-decoration: none; */
+}
+#header #nav a:hover {
+  color: white;
+}
+
+#content {
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #4c4c4c;
+}
+
+#content h1 a {
+  color: #4c4c4c;
+}
+
+#content a {
+  color: rgb(111, 130, 133);
+}
+
+.odd {
+  background-color: #eaeaea;
+}
+
+td {
+  padding: 5px;
+}
+
+td.first {
+  width: 10em;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+#skills .note {
+  font-size: 0.9em;
+  color: #b1b1b1;
+}
+
+#skills table {
+  width: 100%;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+/* Hide print only elements */
+#work-fourv-repeat {
+  display: none;
+}
+
+#open_source_print {
+  display: none;
+}
+
