@@ -24,8 +24,8 @@ body {
   /* font-size: .75em; */
 }
 
-#footer a {
-  color: aqua;
+#page a {
+  color: forestgreen;
 }
 
 #header {
@@ -105,10 +105,6 @@ body {
 
 #content h1 a {
   color: #4c4c4c;
-}
-
-#content a {
-  color: rgb(111, 130, 133);
 }
 
 .odd {
