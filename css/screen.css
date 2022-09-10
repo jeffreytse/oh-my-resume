@@ -24,6 +24,10 @@ body {
   /* font-size: .75em; */
 }
 
+#footer a {
+  color: aqua;
+}
+
 #header {
   text-align: center;
   font-size: 14px;
