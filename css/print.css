@@ -93,6 +93,11 @@ a {
   text-decoration: none;
 }
 
+#content a.non-printed:link {
+  text-decoration: underline;
+  color: black;
+}
+
 #content a:not(.non-printed):link:after {
   content: " (" attr(href) ") ";
   font-style: italic;
