@@ -1,5 +1,6 @@
 body {
   font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+  min-width: 900px;
 }
 
 .company-header {
